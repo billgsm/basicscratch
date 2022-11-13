@@ -1,6 +1,6 @@
 " Create very basic scratch
 function! Scratch()
-    newtab
+    tabnew
     setlocal buftype=nofile
     setlocal bufhidden=hide
     setlocal noswapfile
